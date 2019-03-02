@@ -5,7 +5,7 @@
   "author": "Quoctung95",
   "private": true,
   "scripts": {
-    "start": "npm run server | npm run client",
+    "start": "npm run server | npm run build",
     "client": "cross-env NODE_ENV=development node server/index.js --watch server",
     "server" : "node ./node/bin/www",
     "build": "nuxt build",
