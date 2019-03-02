@@ -28,9 +28,7 @@
 
 <script>
   export default {
-          props: [
-    'isLogin'
-  ],
+
         data() {
             
             return {
@@ -56,9 +54,6 @@
             user_id () {
                 return this.$store.state.user_id
         },
-            isLogin () {
-        return this.$store.state.isLogin
-        }
         },
     
     methods: {
@@ -99,7 +94,6 @@
             type: 'success',
             message: 'Success'
         });
-        this.isLogin = false
             // this.$axios.setHeader('x-access-token', `${user.token}`)
             // Set token và user_id cho user vào store và cooki trong vòng 1 ngày
             // set
