@@ -9,7 +9,7 @@
     "client": "cross-env NODE_ENV=development node server/index.js --watch server",
     "server": "node ./node/bin/www",
     "build": "nuxt build",
-    "web" : "node .node/routes/index.js",
+    "web" : "node index.js",
     "startvue": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
   },
